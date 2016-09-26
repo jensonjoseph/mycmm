@@ -1,0 +1,75 @@
+@CHARSET "ISO-8859-1";
+
+span#bookmark {
+	color: red;
+	font-weight: bold
+}
+
+._page_content {
+	float: right;
+	width: 85%;
+	height: 100%
+}
+
+._sidebar {
+	float: left;
+	width: 15%;
+	height: 100%;
+	color: #fff;
+	padding: 5px 5px;
+	background: #0275d8;
+	color: #fff;
+}
+
+body {
+	background-color: #f8f8f8;
+}
+
+html, body {
+	height: 100%
+}
+
+._branding {
+	display: block;
+	padding: 5px 5px;
+	font-weight: 700;
+	color: #fff;
+	text-align: center;
+	background-color: #0275d8;
+}
+
+.navbar {
+	margin-bottom: 0px;
+}
+
+.navbar-default {
+	background-color: #f8f8f8;
+	border-color: #f8f8f8;
+}
+
+._cmm_hr_split {
+	padding: 4px 4px;
+	background-color: #0275d8;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus
+	{
+	background-color: #eee;
+}
+
+.container {
+	width: 100%;
+	height: 85%;
+	padding-right: 1px;
+	padding-left: 1px;
+	padding-right: 1px;
+}
+
+ul#sbnavlist {
+	background-color: #f8f8f8;
+	padding: 5px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
