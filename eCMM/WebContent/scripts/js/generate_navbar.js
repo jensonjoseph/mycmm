@@ -51,8 +51,13 @@ function generate_navbar(current_tab) {
 			.writeln("<li id='nav_admin' onclick=_block_content()><a href='admin?fromPage="
 					+ current_tab + "&dt=" + today + "'>" + admin + "</a></li>");
 	document
-			.writeln("<li id='nav_contact' onclick=_block_content()><a href='#''>"
-					+ contactus + " US</a></li>");
+			.writeln("<li id='nav_contact' onclick=_block_content()><a href='contactus?fromPage="
+					+ current_tab
+					+ "&dt="
+					+ today
+					+ "'>"
+					+ contactus
+					+ "</a></li>");
 	document.writeln("</ul>");
 	document.writeln("</div>");
 	document.writeln("</nav>");

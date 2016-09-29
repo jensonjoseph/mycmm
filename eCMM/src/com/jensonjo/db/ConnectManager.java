@@ -13,7 +13,7 @@ public class ConnectManager {
 	public static Connection getConnection() {
 		if (con == null) {
 			try {
-				String DB_server = "localhost", DB_port = "3306", DB_name = "oakland_is", DB_user = "root", DB_password = "root";
+				String DB_server = "localhost", DB_port = "3306", DB_name = "oakland", DB_user = "root", DB_password = "root";
 				String url = "jdbc:mysql://" + DB_server + ":" + DB_port + "/" + DB_name;
 				String userId = DB_user;
 				String password = DB_password;
